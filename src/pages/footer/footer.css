@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lexend+Deca:wght@400;500&display=swap');
+
+.aa__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #150437;
+}
+
+.aa__footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width: 100%;
+    text-align: left;
+}
+
+.aa__footer-links div {
+    width: 250px;
+    margin: 1rem;
+}
+
+.aa__footer-links_logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.aa__footer-links_logo h1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;;
+    color: #FFF;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.aa__footer-links_logo p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ffffff;
+}
+
+.aa__footer-links_div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.aa__footer-links_div h4 {
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #FE6766;
+
+    margin-bottom: 0.9rem;
+}
+
+.aa__footer-links_div p {
+    font-size: 12px;
+    line-height: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #ffffff;
+
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+.aa__footer-copyright {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.aa__footer-copyright p {
+    font-size: 12px;
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 15px;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 850px) {
+    .aa__footer-heading h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .aa__footer-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .aa__footer-links div {
+        margin: 1rem 0;
+    }
+
+    .aa__footer-btn p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .aa__footer-heading h1 {
+        font-size: 27px;
+        line-height: 38px;
+    }
+}
