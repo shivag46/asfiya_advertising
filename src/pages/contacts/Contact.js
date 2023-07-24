@@ -7,7 +7,6 @@ function AddressCard(){
                     <p>84, Pushpa Nagar Main road</p> 
                     <p>Nungambakkam</p>
                     <p>Chennai 600034</p>
-                    <p>India</p>
                 </div>
             </div>
             <div className="flex flex-col">
@@ -26,11 +25,12 @@ function Contact(){
             <div className=" text-start text-4xl font-extrabold mt-5 mb-10">
                 Contact Us
             </div>
-            <div className=" flex justify-between items-center px-5">
+            <div className=" flex items-center px-5 justify-around">
                 <AddressCard />
+                <img src={require("../../assets/contact us.png")}  style={{height:"320px",width:"462px"}}/>
             </div>
         </div>
     )
 }
-
+//2000 1400
 export default Contact;
