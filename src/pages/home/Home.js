@@ -3,7 +3,7 @@ import './home.css'
 
 function Home() {
   return (
-    <div className='aa__home section__padding'>
+    <div className='aa__home p-10 h-screen'>
         <div className='aa__home-top'>
             <div className='aa__home-top-logo'>
             <h1> Asfiya<br/>Advertising</h1>
