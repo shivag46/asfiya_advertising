@@ -7,7 +7,7 @@
         @apply border-red-500 border-2 border-solid;
     }
     .circular_card{
-        @apply w-36 h-36 rounded-full m-10 shadow-2xl;
+        @apply w-36 h-36 rounded-full m-10 shadow-3xl;
     }
 }
 
@@ -18,7 +18,7 @@
     max-width:380px;
     height:fit-content;
     background: #FFF;
-    box-shadow: 0px 16px 24px 0px rgba(118, 118, 178, 0.24);
+    box-shadow: 10px 16px 24px 10px rgba(118, 118, 178, 0.24);
 }
 
 
