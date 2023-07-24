@@ -1,8 +1,8 @@
 function OurTeam(){
     return (
         <div className="flex p-10 justify-around items-center">
-            <img src = {require("../../assets/team.png")} style={{width:"565px",height:"525px"}} />
-            <div className=" w-96 h-fit">
+            <img className=" hidden lg:block" src = {require("../../assets/team.png")} style={{width:"565px",height:"525px"}} />
+            <div className=" lg:w-1/3 h-fit">
                 <h1 className="text-4xl font-extrabold m-5">Our Team</h1>
                 <p className="text-left">Team combines the immediacy of real-time chat with an email threading model. With Team, you can catch up on important conversations while ignoring irrelevant ones.</p>
                 <a href="#">

@@ -1,6 +1,6 @@
 function AddressCard(){
     return (
-        <div className="w-1/2 flex flex-col justify-between">
+        <div className="lg:w-1/2 flex flex-col justify-between">
             <div className="flex">
                 <img src={require("../../assets/location.png")} className="w-5 h-5 m-5"  />
                 <div className="text-start">
@@ -25,9 +25,9 @@ function Contact(){
             <div className=" text-start text-4xl font-extrabold mt-5 mb-10">
                 Contact Us
             </div>
-            <div className=" flex items-center px-5 justify-around">
+            <div className=" flex items-center px-5 justify-start lg:justify-around">
                 <AddressCard />
-                <img src={require("../../assets/contact us.png")}  style={{height:"320px",width:"462px"}}/>
+                <img className="hidden lg:block" src={require("../../assets/contact us.png")}  style={{height:"320px",width:"462px"}}/>
             </div>
         </div>
     )
